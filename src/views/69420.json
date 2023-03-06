@@ -1,0 +1,6 @@
+{ 
+    "description" : " Your blockScape is currently rendering, check back in a minute or so. blockScapes are a series of 1234 dyanmic, on-chain generative art pieces rendered with p5.js. blockScapes do not loop but are continuously rendering in front of you for as long as you have them open, always leaving something be explored tomorrow. For more info, swing by our discord or reach out on twitter." ,
+    "image" : "https://api.blockscapes.xyz/image/69420",
+    "name" : "Rendering blockScape",
+    "animation_url" : "https://api.blockscapes.xyz/69420"
+    }
