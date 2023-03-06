@@ -16,8 +16,11 @@ app.set('view engine', '.html');
 
 app.get('/:filepath' , async (req , res) => {
     let filepath = req.params.filepath;
-    if (filepath > 1234 || filepath < 0 || isNaN(filepath) ) {
+    if (filepath > 1234 || filepath < 0 || (isNaN(filepath) && filepath != 'favicon.ico') ) {
         res.send("Not a valid token Id")
+    }
+    if (filepath == 'favicon.ico') {
+        res.sendFile('favicon.ico' , { root : path.join('.')});
     }
     const minted = await checkMinted(filepath);
     if (tokenRendered[filepath] != undefined ) {
