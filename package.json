@@ -22,7 +22,6 @@
     "path": "^0.12.7",
     "pupeteer": "^0.0.1",
     "puppeteer": "^19.7.1",
-    "url-to-image": "^1.0.0",
     "web3": "^1.8.2"
   },
   "devDependencies": {
