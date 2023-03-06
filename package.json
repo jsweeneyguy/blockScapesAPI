@@ -20,7 +20,6 @@
     "jimp": "^0.22.7",
     "mathjs": "^11.5.1",
     "path": "^0.12.7",
-    "phantomjs": "^2.1.7",
     "pupeteer": "^0.0.1",
     "puppeteer": "^19.7.1",
     "url-to-image": "^1.0.0",
