@@ -14,6 +14,8 @@ const imageRendered = {};
 app.use(express.static(path.join('.', 'views')));
 app.set('view engine', '.html');
 
+app.get('/favicon.ico', (req, res) => res.status(204));
+
 app.get('/:filepath' , async (req , res) => {
     let filepath = req.params.filepath;
     if (filepath > 1234 || filepath < 0 || (isNaN(filepath) && filepath != 'favicon.ico') ) {
