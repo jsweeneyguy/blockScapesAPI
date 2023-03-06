@@ -20,7 +20,7 @@
     "mathjs": "^11.5.1",
     "path": "^0.12.7",
     "pupeteer": "^0.0.1",
-    "puppeteer": "^19.7.1",
+    "puppeteer": "^19.7.2",
     "serve-favicon": "^2.5.0",
     "web3": "^1.8.2"
   },
