@@ -21,6 +21,7 @@
     "path": "^0.12.7",
     "pupeteer": "^0.0.1",
     "puppeteer": "^19.7.1",
+    "serve-favicon": "^2.5.0",
     "web3": "^1.8.2"
   },
   "devDependencies": {

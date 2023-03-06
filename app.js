@@ -3,11 +3,11 @@ import {takeScreenshot} from "./views/takeScreenshot.js";
 import {checkMinted} from "./checkMinted.js";
 import express from "express";
 import * as path from 'path';
-import * as fs from "fs";
+
 
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1234;
 const tokenRendered = {};
 const imageRendered = {};
 
