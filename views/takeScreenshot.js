@@ -4,6 +4,7 @@ import Jimp from 'jimp';
 async function takeScreenshot(tokenId) {
   // Launch a headless browser
   const browser = await puppeteer.launch({ product : 'firefox' ,
+    args : ['--no-sandbox'] ,
     headless: true });
 
   // Create a new page
