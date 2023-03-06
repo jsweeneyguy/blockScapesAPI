@@ -9,7 +9,7 @@ async function takeScreenshot(tokenId) {
   const page = await browser.newPage();
 
   // Navigate to the website
-  await page.goto(`http://localhost:1234/temp_${tokenId}`);
+  await page.goto(`http://https://blocktestkappa.herokuapp.com/temp_${tokenId}`);
 
   await new Promise(resolve => setTimeout(resolve, 1500));
 
